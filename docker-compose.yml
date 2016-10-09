@@ -33,7 +33,7 @@ renderd:
     - osm-bright
     - tiles-data
   ports:
-    - "3580:80"
+    - "34580:80"
   links:
     - postgres-osm:pg
   command: /etc/start.sh
